@@ -10,5 +10,7 @@ h1{color:gray; font-family: verdana;}
 	margin: auto;
 	;
 }
+.inputdiv {
+	margin-left: 100px;
+}
 footer{text-align:left;}
-p{padding:90px;}
