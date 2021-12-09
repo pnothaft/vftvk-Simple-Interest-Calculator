@@ -10,7 +10,10 @@ h1{color:gray; font-family: verdana;}
 	margin: auto;
 	;
 }
-.inputdiv {
-	margin-left: 100px;
+table{
+	margin: auto;
 }
-footer{text-align:left;}
+
+footer{
+	text-align:left;
+}

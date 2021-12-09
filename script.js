@@ -1,5 +1,6 @@
 
 function compute() {
+	//Calculate interest rate
     var principal = document.getElementById("principal");
 	var rate = document.getElementById("rate").value;
 	var years = document.getElementById("years").value;
@@ -11,6 +12,7 @@ function compute() {
 		return false;
 	}
 	var year = new Date().getFullYear()+parseInt(years);
+	//Write results
 	document.getElementById("result").innerHTML= `
 	If you deposit <mark> ${principal.value}</mark>,<br>
 	at an interest rate of <mark>${rate}%</mark>.<br>
@@ -21,6 +23,7 @@ function compute() {
 }
 
 function updateRate() {
+	//Return range value
 	var rateval = document.getElementById("rate").value;
 	document.getElementById("rate_val").innerText=rateval;
 }
