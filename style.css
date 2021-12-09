@@ -13,6 +13,9 @@ h1{color:gray; font-family: verdana;}
 table{
 	margin: auto;
 }
+td{
+	padding: 10px;
+}
 
 footer{
 	text-align:left;
